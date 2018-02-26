@@ -1,5 +1,5 @@
 FROM python:3
-
+MAINTAINER enrrou@gmail.com
 EXPOSE 5000
 
 RUN mkdir /app
