@@ -1,0 +1,17 @@
+version: '3'
+services:
+  web:
+    image: nginx
+    volumes:
+    - "./nginx:/etc/nginx/conf.d:ro"
+    ports:
+      - 80:80
+  movies:
+    build: .
+    ports:
+    - 5000
+    depends_on:
+       - mongo
+  mongo:
+    image: mongo:latest
+    container_name: "mongo"
