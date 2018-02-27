@@ -1,5 +1,5 @@
 #!/bin/bash
-appCont=''
+movCont=''
 while [ "$movCont" = '' ]; do
     echo -n "Сколько нужно app контейнеров? "
     read movCont
