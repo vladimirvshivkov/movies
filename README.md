@@ -5,3 +5,5 @@ Python application uses flask and eve framework which is very human-friendly.
 
 Starts from bash script make_movies. Script builds requested number of app docker containers and connects them in right order.
 Schema of DB is described in setting.py
+
+It works on docker swarm, and before you run script, you need to initialize swarm.
