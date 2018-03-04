@@ -7,3 +7,9 @@ Starts from bash script make_movies. Script builds requested number of app docke
 Schema of DB is described in setting.py
 
 It works on docker swarm, and before you run script, you need to initialize swarm.
+
+First, you need to pull git, and cd to folder.
+Then, run make_movies.sh, script will create all services, network and stuff. 
+If you would like to scale movies app, 
+just type in terminal 
+"docker service scale movies-app=7" for 7 or any app you would like.
