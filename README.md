@@ -12,4 +12,4 @@ First, you need to pull git, and cd to folder.
 Then, run make_movies.sh, script will create all services, network and stuff. 
 If you would like to scale movies app, 
 just type in terminal 
-"docker service scale movies-app=7" for 7 or any app you would like.
+"docker service scale movies-app=7" for 7 or any app containers you would like.
